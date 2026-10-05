@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Équipement · Compagnie Bacta</title>
+  <meta name="description" content="Armement et matériel médical de la Compagnie Bacta.">
+  <meta name="theme-color" content="#16161a">
+  <link rel="icon" type="image/png" href="https://i.imgur.com/Xef8rkx.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">
+        <img src="https://i.imgur.com/Xef8rkx.png" alt="Écusson de la Compagnie Bacta">
+        <span class="brand-text"><strong>Compagnie Bacta</strong><small>327TH STAR CORPS</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+      <ul class="nav" id="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="reglement.html">Règlement</a></li>
+        <li><a href="equipement.html" aria-current="page">Équipement</a></li>
+        <li><a href="persorp.html">Perso RP</a></li>
+        <li><a href="https://lucasmasure.github.io/site327th/tenues.html" target="_blank" rel="noopener">Tenue ↗</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero small hero-anim">
+      <div class="hero-bg scene"><canvas class="skyline" aria-hidden="true"></canvas><canvas class="battle" aria-hidden="true"></canvas><canvas class="squad" aria-hidden="true"></canvas></div>
+      <div class="hero-fx smoke" aria-hidden="true"></div>
+      <div class="hero-fx embers" aria-hidden="true"></div>
+      <div class="hero-fx embers far" aria-hidden="true"></div>
+      <div class="hero-fx flash" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1><span class="accent">Équipements</span> de la Compagnie</h1>
+        <span class="neon">ARMEMENT · OUTILS · MÉDICAL</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filtrer l'équipement">
+          <button type="button" data-filter="all" aria-pressed="true">Tout</button>
+          <button type="button" data-filter="arme" aria-pressed="false">Armement</button>
+          <button type="button" data-filter="outil" aria-pressed="false">Outils</button>
+          <button type="button" data-filter="medical" aria-pressed="false">Médical</button>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="panel gear reveal" data-cat="arme">
+            <figure><img src="https://i.imgur.com/nRN3smz.png" alt="Blaster DC-15S" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Armement · BlasTech</span>
+              <h3>DC-15S</h3>
+              <p>Arme « secondaire », idéale pour les combats à courte portée, notamment dans les bâtiments. Compacte et légère, elle est aussi l'une des rares armes utilisables avec un jetpack, offrant une grande mobilité aux soldats.</p>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="arme">
+            <figure><img class="tight" src="https://i.imgur.com/wqkcnJ9.png" alt="Fusil DC-15A" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Armement · BlasTech</span>
+              <h3>DC-15A</h3>
+              <p>Arme de moyenne et longue portée, très courante chez les clones en raison de sa fiabilité. Sa grande cadence de tir en fait un choix polyvalent sur le champ de bataille.</p>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="arme">
+            <figure><img src="https://i.imgur.com/rThnytf.png" alt="Pistolets DC-17" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Armement</span>
+              <h3>Dual DC-17</h3>
+              <p>Le DC-17 se règle selon la cible : à faible intensité, son tir détruit un simple droïde de combat B1 ; à puissance maximale, il peut percer le blindage d'un Char d'Assaut Blindé (CAB).</p>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="outil">
+            <figure><img src="https://i.imgur.com/7zBPqgV.png" alt="Grappin" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Outil</span>
+              <h3>Grappin</h3>
+              <p>Outil essentiel pour la Compagnie Bacta : il permet de prendre de la hauteur et de couvrir de longues distances pour atteindre rapidement des positions stratégiques et surmonter les obstacles.</p>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="outil">
+            <figure><img src="https://i.imgur.com/reL2y9s.png" alt="Shield laser" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Outil</span>
+              <h3>Shield laser</h3>
+              <p>Bouclier énergétique portatif capable d'absorber les tirs de blaster ennemis. Il offre une couverture mobile précieuse pour protéger un blessé pendant les soins ou progresser à découvert sous le feu adverse.</p>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="medical">
+            <figure><img src="https://i.imgur.com/uKhe6Ti.png" alt="Grenade Bacta" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Médical</span>
+              <h3>Grenade Bacta</h3>
+              <p>Dispositif à lancer qui, une fois activé, dégage une fumée bleuâtre aux propriétés régénératrices. Le Bacta est un mélange de bactéries originaire de Thyferra, capable de régénérer les tissus de la grande majorité des êtres vivants connus.</p>
+              <span class="warn">⛔ Ne pas utiliser en première ligne</span>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="medical">
+            <figure><img src="https://i.imgur.com/QE6nKSE.png" alt="Défibrillateur" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Médical</span>
+              <h3>Défibrillateur</h3>
+              <p>Engin faisant usage d'électrochocs pour redémarrer le cœur d'un patient inconscient et éviter son décès. Tout médecin en est équipé.</p>
+            </div>
+          </article>
+
+          <article class="panel gear reveal" data-cat="medical">
+            <figure><img src="https://i.imgur.com/qRTN50y.png" alt="Bacta Injector" loading="lazy"></figure>
+            <div class="body">
+              <span class="cat">Médical</span>
+              <h3>Bacta Injector</h3>
+              <p>Permet de soigner ses camarades en leur injectant du Bacta.</p>
+              <span class="warn">⚠️ Ne pas en abuser / spammer</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="note">Les armes de la compagnie sont fabriquées dans les usines BlasTech.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <a class="brand" href="index.html">
+        <img src="https://i.imgur.com/Xef8rkx.png" alt="">
+        <span class="brand-text"><strong>Compagnie Bacta</strong><small>GUÉRIR OU PÉRIR</small></span>
+      </a>
+      <span>327ème Corps Stellaire · 7e Légion · 101st Régiment · Bataillon Hawkbat</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
