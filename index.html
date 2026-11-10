@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>ARC 327th — Accueil</title>
+  <meta name="description" content="Site officiel des ARC Rogue du 327th Corps Stellaire.">
+  <link rel="icon" href="https://i.imgur.com/6qHUprK.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+  <div class="home-bg" aria-hidden="true">
+    <div class="home-bg-img"><canvas id="scene"></canvas></div>
+    <canvas id="fx"></canvas>
+  </div>
+  <nav class="nav">
+    <a class="nav-brand" href="index.html"><img src="https://i.imgur.com/6qHUprK.png" alt="Logo ARC Rogue"><span>ARC <b>327th</b></span></a>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="presentation.html">Présentation</a></li>
+      <li><a href="equipement.html">Équipement</a></li>
+      <li><a href="flame.html">Perso RP</a></li>
+      <li><a href="https://lucasmasure.github.io/site-327th/tenues.html" target="_blank" rel="noopener">Tenues</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">327th Corps Stellaire</p>
+        <h1>ARC <b>327th</b></h1>
+        <p class="lead">Site officiel des ARC Rogue du 327th Corps Stellaire — l'élite de l'élite, au service de la République.</p>
+        <p class="motto">PARJAII AT REPUBLIC</p>
+        <a class="btn" href="presentation.html">Découvrir l'unité</a>
+        <a class="btn ghost" href="flame.html">Dossier 9418 Flame</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Base de données</p>
+          <h2>Accès aux dossiers</h2>
+          <p>Toutes les informations sur les Commandos de Reconnaissance Avancée du 327th.</p>
+          <div class="divider"><svg viewBox="0 0 30 22"><path d="M2 20 L9 2 L15 12 L21 2 L28 20 L15 14 Z"/></svg></div>
+        </div>
+        <div class="grid grid-3">
+          <a class="card reveal" href="presentation.html">
+            <span class="num">// 01</span>
+            <h3>Présentation</h3>
+            <p>Qui sont les ARC Rogue, leur rôle au sein du 327th et les conditions pour rejoindre leurs rangs.</p>
+            <span class="go">Accéder &rarr;</span>
+          </a>
+          <a class="card reveal" href="equipement.html">
+            <span class="num">// 02</span>
+            <h3>Équipement</h3>
+            <p>Armes lourdes, fusils de précision, explosifs et jetpacks : l'arsenal complet des ARC Rogue.</p>
+            <span class="go">Accéder &rarr;</span>
+          </a>
+          <a class="card reveal" href="flame.html">
+            <span class="num">// 03</span>
+            <h3>Perso RP</h3>
+            <p>Dossier personnel de l'ARC Rogue 9418 « Flame » : son histoire, son parcours, ses faits d'armes.</p>
+            <span class="go">Accéder &rarr;</span>
+          </a>
+          <a class="card reveal" href="https://lucasmasure.github.io/site-327th/tenues.html" target="_blank" rel="noopener">
+            <span class="num">// 04</span>
+            <h3>Tenues</h3>
+            <p>Les armures et tenues réglementaires du 327th Corps Stellaire.</p>
+            <span class="go">Accéder &nearr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <img src="https://i.imgur.com/6qHUprK.png" alt="">
+      <span class="motto">PARJAII AT REPUBLIC</span>
+      <p>ARC 327th — ARC Rogue du 327th Corps Stellaire</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
